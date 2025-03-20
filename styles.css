@@ -1,0 +1,71 @@
+/* 全局样式 */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #e6f3e6; /* 浅绿色背景 */
+  color: #333;
+}
+
+/* 标题样式 */
+header {
+  background-color: #9fd7a1; /* 绿色背景 */
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+}
+
+header p {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+}
+
+/* 内容区域样式 */
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+  color: #62e9a1; /* 绿色标题 */
+  border-bottom: 2px solid #8fd691;
+  padding-bottom: 5px;
+}
+
+/* 列表样式 */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+/* 链接样式 */
+a {
+  color: #6dbce3; /* 绿色链接 */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* 页脚样式 */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #9fd7a1; /* 绿色背景 */
+  color: #fff;
+  margin-top: 20px;
+}
